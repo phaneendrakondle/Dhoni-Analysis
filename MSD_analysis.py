@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 import pandas as pd
 import numpy as np
 
-import matplotlib.pyplot as plt
+import sklearn as plt
 
 #to display all rows columns 
 pd.set_option('display.max_rows', None)
@@ -179,11 +179,11 @@ death_17_stats
 # In[ ]:
 
 
-ax = plt.gca()
+# ax = plt.gca()
 death_17_stats.plot(kind = 'bar',
         y = 'SR',
-        color = 'green',ax = ax)
-plt.show()
+        color = 'green')
+# plt.show()
 
 
 # **Overs 17 :** we can see that his strike rate in past five seasons is not impressive
@@ -205,11 +205,11 @@ death_18_stats
 # In[ ]:
 
 
-ax = plt.gca()
+# ax = plt.gca()
 death_18_stats.plot(kind = 'bar',
         y = 'SR',
-        color = 'green',ax = ax)
-plt.show()
+        color = 'green')
+# plt.show()
 
 
 # **Over 18 :** Strike Rate hardly touches 140 to 150 in over 18 which is considerable.
@@ -231,11 +231,11 @@ death_19_stats
 # In[ ]:
 
 
-ax = plt.gca()
+# ax = plt.gca()
 death_19_stats.plot(kind = 'bar',
         y = 'SR',
-        color = 'green',ax = ax)
-plt.show()
+        color = 'green')
+# plt.show()
 
 
 # **Over 19 :** He's very poor striking in this over throughout his career.
@@ -264,11 +264,11 @@ drive.mount('/content/drive')
 # In[ ]:
 
 
-ax = plt.gca()
+# ax = plt.gca()
 death_20_stats.plot(kind = 'bar',
         y = 'SR',
-        color = 'green',ax = ax)
-plt.show()
+        color = 'green')
+# plt.show()
 
 
 # **Over 20 :** The above visualization shows how he got transformed as a final over specialist. His strikes almost at 250.
