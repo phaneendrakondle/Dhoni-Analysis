@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 
 import pandas as pd
 import numpy as np
-pip install matplotlib
+!pip install matplotlib
 import matplotlib.pyplot as plt
 
 #to display all rows columns 
